@@ -15,6 +15,8 @@ import requests
 
 url_cebrace = "http://sistemas.cebrace.com.br/EzTask.WebAPI/api/ocorrencia/salvar"
 
+url_cebrace =  "http://sistemas.cebrace.com.br/EzTask.WebAPI/api/ocorrencia/updatefoto"
+
 def connect_webservice_cebrace(username, password):
     url_cebrace_connect = "http://sistemas.cebrace.com.br/EzTask.WebAPI/api/token"
     headers_cebrace_connect = { "content-type": "application/x-www-form-urlencoded" }
